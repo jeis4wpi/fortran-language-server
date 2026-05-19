@@ -1713,7 +1713,7 @@ def process_file(file_obj, close_open_scopes, debug=False, pp_defs={}, include_d
                             for word in obj_info.obj_names:
                                 file_ast.add_public(word)
                 if(debug):
-                    print('{1} !!! Visiblity statement({0})'.format(line_number, line.strip()))
+                    print('{1} !!! Visibility statement({0})'.format(line_number, line.strip()))
     file_ast.close_file(line_number)
     if debug:
         if len(file_ast.end_errors) > 0:

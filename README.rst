@@ -166,7 +166,7 @@ Fortran objects defined in these files will not be processed.
 File suffixes for preprocessing can be controlled with the variable ``pp_suffixes`` in a workspace's
 ``.fortls`` file. When this variable is used *only* those files with the specified suffixes will be
 preprocessed. If an empty array is specified then *no* preprocessing will be performed on any files.
-By default, or if the variable is ommited or ``null``, only files with upper case suffixes are preprocessed.
+By default, or if the variable is omitted or ``null``, only files with upper case suffixes are preprocessed.
 
 Preprocessor definitions can be set for each project, to improve support for Fortran files using conditional
 compilation, using the ``pp_defs`` variable in the ``.fortls`` file. Preprocessing is performed *only* for files

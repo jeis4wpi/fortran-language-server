@@ -270,9 +270,9 @@ def main():
                 "params": {"rootPath": args.debug_rootpath}
             })
             if len(s.post_messages) == 0:
-                print("  Succesful!")
+                print("  Successful!")
             else:
-                print("  Succesful with errors:")
+                print("  Successful with errors:")
                 for message in s.post_messages:
                     print("    {0}".format(message[1]))
             # Print module directories
